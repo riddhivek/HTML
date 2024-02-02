@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-3</title>
+</head>
+<body>
+    <style>
+        body{
+            padding:0;
+            margin: 0;
+            border: 1px  solid red;
+        }
+        .submit-button{
+            width: 120px;
+            height: 25px;
+            background-color: rgb(219,88,0);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+    </style>
+    <form style="background-color: rgb(205,255,155);text-align: center; padding: 20px 0;">
+    <legend style="font-size: 28px;color: rgb(207,7,7);"><b>Personal Details</b></legend><br>
+    <label>Name: <input type="text"><br></label><br>
+    <label>Password: <input type="text"><br></label><br>
+    <label>Email id: <input type="text"><br></label><br>
+    <label>
+        Gender:
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="other">other
+    </label><br><br>
+    <label>Contact#: <input type="text"><br></label><br><br>
+    <legend style="font-size: 28px;color: rgb(207,7,7);"><b>Educational Qualification</b></legend><br>
+    <label>
+        Degree: 
+        <select name="Security">
+            <option>--Select group--</option>
+            <option>how the change </option>
+            <option>why are you </option>
+            <option>why are you </option>
+        </select><br><br>
+        <label>
+        Engineering: 
+        <select name="Security">
+            <option>Select</option>
+            <option>how the change </option>
+            <option>why are you </option>
+            <option>why are you </option>
+        </select><br><br>
+        <label>
+            Hobbies:
+            <input type="radio" name="hobby" value="Playing chess">Playing chess
+            <input type="radio" name="hobby" value="Reading books">Reading books
+        </label><br><br><br>
+        <legend style="font-size: 28px;color: rgb(207,7,7);"><b>Address</b></legend><br>
+        <textarea cols="40" rows="4"></textarea><br><br>
+        <label>
+            Attch Resume:
+            <input type="file" value="chouse">
+        </label><br><br>
+        <input type="submit-button" class="submit-button" value="SUBMIT">
+    </form>
+</body>
+</html>
